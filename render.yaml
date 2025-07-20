@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: pywebio-app
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: python lesson.py
